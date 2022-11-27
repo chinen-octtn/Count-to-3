@@ -1,0 +1,67 @@
+html {
+  font-family: system-ui, sans-serif;
+  background-color: #f6f6f6;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  align-items: center;
+  height: 100vh;
+  height: 100dvh;
+}
+
+main {
+  margin: auto;
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+}
+
+.text {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+.-result {
+  position: fixed;
+  top: 2rem;
+  left: 0;
+  right: 0;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.button {
+  cursor: pointer;
+  margin-top: 2em;
+  border: none;
+  width: 200px;
+  padding: 0.8em;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.-start {
+  background: linear-gradient(90deg, #f45063, #fcd126);
+}
+.-stop {
+  background: linear-gradient(90deg, #00988d, #dee000);
+  animation: scale 1.4s ease-in-out infinite;
+}
+.-play .-start {
+  display: none;
+}
+.buttonWrap:not(.-play) .-stop {
+  display: none;
+}
