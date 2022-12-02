@@ -9,6 +9,18 @@
     <script src="/assets/js/script.js" defer></script>
     <!-- ウェブアプリマニフェストの読み込み -->
     <link rel="manifest" href="manifest.json" />
+    <!-- iOS用の設定 -->
+    <!-- アドレスバー等のブラウザのUIを非表示 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- default（Safariと同じ色） / black（黒） / black-translucent（ステータスバーをコンテンツに含める） -->
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <!-- ホーム画面に表示されるアプリ名 -->
+    <meta name="apple-mobile-web-app-title" content="Count3" />
+    <!-- ホーム画面に表示されるアプリアイコン -->
+    <link rel="apple-touch-icon" href="/assets/img/icon-152x152.png" />
   </head>
   <body>
     <main>
