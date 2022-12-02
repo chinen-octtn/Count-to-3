@@ -15,11 +15,11 @@ workbox.precaching.precacheAndRoute([
     revision: "123",
   },
   {
-    url: "/asetts/css/style.css",
+    url: "/assets/css/style.css",
     revision: "123",
   },
   {
-    url: "/asetts/js/script.js",
+    url: "/assets/js/script.js",
     revision: "123",
   },
 ]);
