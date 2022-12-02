@@ -4,6 +4,14 @@ if ("serviceWorker" in navigator) {
   });
 }
 
+// プッシュ通知の設定
+window.OneSignal = window.OneSignal || [];
+OneSignal.push(function () {
+  OneSignal.init({
+    appId: "faa882f2-6bfe-4802-970d-5c2e87a47ce9",
+  });
+});
+
 let time = null;
 const wrap = document.querySelector("#buttonWrap");
 const startButton = document.querySelector("#start");
