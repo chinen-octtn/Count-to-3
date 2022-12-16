@@ -12,14 +12,14 @@ importScripts(
 workbox.precaching.precacheAndRoute([
   {
     url: "/index.html",
-    revision: "123",
+    revision: "1234",
   },
   {
     url: "/assets/css/style.css",
-    revision: "123",
+    revision: "1234",
   },
   {
     url: "/assets/js/script.js",
-    revision: "123",
+    revision: "1234",
   },
 ]);
