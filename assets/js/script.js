@@ -10,8 +10,24 @@ OneSignal.push(function () {
   OneSignal.init({
     appId: "faa882f2-6bfe-4802-970d-5c2e87a47ce9",
     safari_web_id: "web.onesignal.auto.105cd246-aae6-4c14-8684-2fd8214524d1",
-    notifyButton: {
-      enable: true,
+    promptOptions: {
+      customlink: {
+        enabled: true /* Required to use the Custom Link */,
+        style: "button" /* Has value of 'button' or 'link' */,
+        size: "medium" /* One of 'small', 'medium', or 'large' */,
+        color: {
+          button:
+            "#10265C" /* Color of the button background if style = "button" */,
+          text: "#FFFFFF" /* Color of the prompt's text */,
+        },
+        text: {
+          subscribe: "Subscribe to push notifications",
+          unsubscribe: "Unsubscribe from push notifications",
+          explanation:
+            "Get updates from all sorts of things that matter to you",
+        },
+        unsubscribeEnabled: true /* Controls whether the prompt is visible after subscription */,
+      },
     },
   });
 });
