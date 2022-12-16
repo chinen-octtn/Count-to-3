@@ -65,3 +65,10 @@ main {
 .buttonWrap:not(.-play) .-stop {
   display: none;
 }
+
+.onesignal-customlink-container {
+  position: fixed;
+  bottom: 10px;
+  left: 16px;
+  right: 16px;
+}

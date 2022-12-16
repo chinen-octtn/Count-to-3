@@ -9,6 +9,10 @@ window.OneSignal = window.OneSignal || [];
 OneSignal.push(function () {
   OneSignal.init({
     appId: "faa882f2-6bfe-4802-970d-5c2e87a47ce9",
+    safari_web_id: "web.onesignal.auto.105cd246-aae6-4c14-8684-2fd8214524d1",
+    notifyButton: {
+      enable: true,
+    },
   });
 });
 
