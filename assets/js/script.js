@@ -25,12 +25,12 @@ OneSignal.push(function () {
           unsubscribe: "Push通知の登録を解除する",
           explanation: "最新情報を受け取るために登録をおすすめします",
         },
-        welcomeNotification: {
-          disable: false,
-          title: "PWA Night",
-          message: "登録ありがとうございます",
-        },
       },
+    },
+    welcomeNotification: {
+      disable: false,
+      title: "PWA Night",
+      message: "登録ありがとうございます",
     },
   });
 });
