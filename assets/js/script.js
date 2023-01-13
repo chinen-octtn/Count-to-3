@@ -27,6 +27,9 @@ OneSignal.push(function () {
             "Get updates from all sorts of things that matter to you",
         },
         unsubscribeEnabled: true /* Controls whether the prompt is visible after subscription */,
+        welcomeNotification: {
+          message: "登録ありがとうございます",
+        },
       },
     },
   });
