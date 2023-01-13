@@ -29,6 +29,7 @@ OneSignal.push(function () {
         unsubscribeEnabled: true /* Controls whether the prompt is visible after subscription */,
         welcomeNotification: {
           disable: false,
+          title: "PWA Night",
           message: "登録ありがとうございます",
         },
       },
