@@ -29,8 +29,7 @@ OneSignal.push(function () {
     },
     welcomeNotification: {
       disable: false,
-      title: "PWA Night",
-      message: "登録ありがとうございます",
+      message: "登録ありがとうございます。通知を受け取るように設定しました。",
     },
   });
 });
