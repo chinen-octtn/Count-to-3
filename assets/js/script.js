@@ -21,12 +21,10 @@ OneSignal.push(function () {
           text: "#FFFFFF" /* Color of the prompt's text */,
         },
         text: {
-          subscribe: "Subscribe to push notifications",
-          unsubscribe: "Unsubscribe from push notifications",
-          explanation:
-            "Get updates from all sorts of things that matter to you",
+          subscribe: "Push通知を登録する",
+          unsubscribe: "Push通知の登録を解除する",
+          explanation: "最新情報を受け取るために登録をおすすめします",
         },
-        unsubscribeEnabled: true /* Controls whether the prompt is visible after subscription */,
         welcomeNotification: {
           disable: false,
           title: "PWA Night",
