@@ -25,6 +25,7 @@ OneSignal.push(function () {
           unsubscribe: "Push通知の登録を解除する",
           explanation: "最新情報を受け取るために登録をおすすめします",
         },
+        unsubscribeEnabled: true /* Controls whether the prompt is visible after subscription */,
       },
     },
     welcomeNotification: {
