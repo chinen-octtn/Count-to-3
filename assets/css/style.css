@@ -67,8 +67,5 @@ main {
 }
 
 .onesignal-customlink-container {
-  position: fixed;
-  bottom: 10px;
-  left: 16px;
-  right: 16px;
+  margin-top: 40px;
 }

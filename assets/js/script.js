@@ -8,30 +8,7 @@ if ("serviceWorker" in navigator) {
 window.OneSignal = window.OneSignal || [];
 OneSignal.push(function () {
   OneSignal.init({
-    appId: "faa882f2-6bfe-4802-970d-5c2e87a47ce9",
-    safari_web_id: "web.onesignal.auto.105cd246-aae6-4c14-8684-2fd8214524d1",
-    promptOptions: {
-      customlink: {
-        enabled: true /* Required to use the Custom Link */,
-        style: "button" /* Has value of 'button' or 'link' */,
-        size: "medium" /* One of 'small', 'medium', or 'large' */,
-        color: {
-          button:
-            "#10265C" /* Color of the button background if style = "button" */,
-          text: "#FFFFFF" /* Color of the prompt's text */,
-        },
-        text: {
-          subscribe: "Push通知を登録する",
-          unsubscribe: "Push通知の登録を解除する",
-          explanation: "最新情報を受け取るために登録をおすすめします",
-        },
-        unsubscribeEnabled: true /* Controls whether the prompt is visible after subscription */,
-      },
-    },
-    welcomeNotification: {
-      disable: false,
-      message: "登録ありがとうございます。通知を受け取るように設定しました。",
-    },
+    appId: "abe9d4c9-e4b2-4a66-b70b-a387478acef0",
   });
 });
 
