@@ -20,6 +20,6 @@ workbox.precaching.precacheAndRoute([
   },
   {
     url: "/assets/js/script.js",
-    revision: "230329",
+    revision: "230418",
   },
 ]);

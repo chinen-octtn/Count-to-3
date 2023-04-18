@@ -8,7 +8,7 @@ if ("serviceWorker" in navigator) {
 window.OneSignal = window.OneSignal || [];
 OneSignal.push(function () {
   OneSignal.init({
-    appId: "abe9d4c9-e4b2-4a66-b70b-a387478acef0",
+    appId: "2a8b9d4e-b48b-4e33-9f59-0baa2922d3b8",
   });
 });
 
